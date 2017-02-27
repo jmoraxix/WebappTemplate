@@ -1,8 +1,8 @@
-package com.sgcom.web.dao;
+package com.webapptemplate.web.dao;
 
 import java.util.Collection;
 
-import com.sgcom.web.model.Categoria;
+import com.webapptemplate.web.model.Categoria;
 
 public interface CategoriaDAO {
 	

@@ -1,4 +1,4 @@
-package com.sgcom.web.test.unitest;
+package com.webapptemplate.web.test.unitest;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;
@@ -12,8 +12,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.sgcom.web.model.Categoria;
-import com.sgcom.web.service.CategoriaBO;
+import com.webapptemplate.web.model.Categoria;
+import com.webapptemplate.web.service.CategoriaBO;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration

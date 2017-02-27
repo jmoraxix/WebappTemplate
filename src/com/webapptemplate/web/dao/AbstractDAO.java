@@ -1,4 +1,4 @@
-package com.sgcom.web.dao;
+package com.webapptemplate.web.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

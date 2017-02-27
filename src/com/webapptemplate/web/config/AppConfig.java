@@ -1,4 +1,4 @@
-package com.sgcom.web.config;
+package com.webapptemplate.web.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  
 @Configuration
-@ComponentScan(basePackages = {"com.sgcom.web"}, excludeFilters = {@Filter(type = FilterType.ANNOTATION,value={EnableWebMvc.class,Controller.class})})
+@ComponentScan(basePackages = {"com.webapptemplate.web"}, excludeFilters = {@Filter(type = FilterType.ANNOTATION,value={EnableWebMvc.class,Controller.class})})
 public class AppConfig {
 
 }

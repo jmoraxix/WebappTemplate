@@ -1,8 +1,8 @@
-package com.sgcom.web.service;
+package com.webapptemplate.web.service;
 
 import java.util.Collection;
 
-import com.sgcom.web.model.Categoria;
+import com.webapptemplate.web.model.Categoria;
 
 public interface CategoriaBO {
 	

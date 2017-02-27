@@ -1,4 +1,4 @@
-package com.sgcom.web.service.impl;
+package com.webapptemplate.web.service.impl;
 
 import java.util.Collection;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sgcom.web.dao.CategoriaDAO;
-import com.sgcom.web.model.Categoria;
-import com.sgcom.web.service.CategoriaBO;
+import com.webapptemplate.web.dao.CategoriaDAO;
+import com.webapptemplate.web.model.Categoria;
+import com.webapptemplate.web.service.CategoriaBO;
 
 @Transactional
 @Service

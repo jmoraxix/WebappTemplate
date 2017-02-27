@@ -1,4 +1,4 @@
-package com.sgcom.web.controller;
+package com.webapptemplate.web.controller;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.sgcom.web.service.CategoriaBO;
+import com.webapptemplate.web.service.CategoriaBO;
 
 @Controller
 public class WelcomeController {

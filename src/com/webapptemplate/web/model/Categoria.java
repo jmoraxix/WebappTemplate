@@ -1,4 +1,4 @@
-package com.sgcom.web.model;
+package com.webapptemplate.web.model;
 
 import java.util.Collection;
 

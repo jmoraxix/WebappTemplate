@@ -1,4 +1,4 @@
-package com.sgcom.web.dao.impl;
+package com.webapptemplate.web.dao.impl;
 
 import java.util.Collection;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import org.hibernate.Criteria;
 import org.springframework.stereotype.Repository;
 
-import com.sgcom.web.dao.AbstractDAO;
-import com.sgcom.web.dao.CategoriaDAO;
-import com.sgcom.web.model.Categoria;
+import com.webapptemplate.web.dao.AbstractDAO;
+import com.webapptemplate.web.dao.CategoriaDAO;
+import com.webapptemplate.web.model.Categoria;
 
 
 @Repository

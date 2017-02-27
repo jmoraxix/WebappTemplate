@@ -1,4 +1,5 @@
-package com.sgcom.web.test.config;
+package com.webapptemplate.web.config;
+
 
 import java.util.Properties;
 
@@ -15,12 +16,12 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-
+ 
 @Configuration
 @EnableTransactionManagement
 @ComponentScan(basePackages = "com.sgcom.web")
 @PropertySource(value = {"classpath:application.properties"})
-public class HibernateConfigurationTest {
+public class HibernateConfiguration {
  
     @Autowired
     private Environment environment;

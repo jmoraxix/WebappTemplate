@@ -11,7 +11,7 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
         
     <!-- Scan for controller on the base-package, only scan for controller annotation -->    
-	<context:component-scan base-package="com.sgcom.web">
+	<context:component-scan base-package="com.webapptemplate.web">
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 	</context:component-scan>
  
