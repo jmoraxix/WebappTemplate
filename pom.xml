@@ -7,6 +7,7 @@
 	<name>WebappTemplate</name>
 	<description>WebappTemplate</description>
 	<build>
+    	<finalName>${project.artifactId}</finalName>
 		<sourceDirectory>src</sourceDirectory>
 		<testSourceDirectory>test</testSourceDirectory>
 		<resources>

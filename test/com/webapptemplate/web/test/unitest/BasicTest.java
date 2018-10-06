@@ -17,7 +17,7 @@ import com.webapptemplate.web.service.CategoriaBO;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration("file:WebContent/WEB-INF/SGCom-servlet.xml")
+@ContextConfiguration("file:WebContent/WEB-INF/WebappTemplate-servlet.xml")
 public class BasicTest {
 	
 	@Autowired
