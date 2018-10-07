@@ -19,7 +19,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = "com.sgcom.web")
+@ComponentScan(basePackages = "com.webapptemplate.web")
 @PropertySource(value = {"classpath:application.properties"})
 public class HibernateConfiguration {
  
@@ -30,7 +30,7 @@ public class HibernateConfiguration {
     public LocalSessionFactoryBean sessionFactory() {
     	LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
     	sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan(new String[] { "com.sgcom.web" });
+        sessionFactory.setPackagesToScan(new String[] { "com.webapptemplate.web" });
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
      }
